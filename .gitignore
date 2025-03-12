@@ -1,0 +1,30 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de configuración de Firebase
+q-tap-a727e-firebase-adminsdk-fbsvc-18f2d790e0.json
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de compilación
+dist/
+build/
+
+# Ignorar archivos de configuración local
+config/local.js
+
+# Ignorar archivos de desarrollo
+.vscode/
+.idea/
+
+# Ignorar archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+#clave de gnereacion
+generateToken.js
+  
