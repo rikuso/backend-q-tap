@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({ origin: '*' }));
 app.use(helmet());
 
 // Rutas
